@@ -1,0 +1,136 @@
+div {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+aside {
+    background-color: #bdefff;
+    width: 350px;
+    height: 1000px;
+    float: left;
+}
+
+main {
+    background-color: #eeeeee;
+    height: 1000px;
+    overflow: auto;
+}
+
+img {
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-left: 40px;
+    border: 0.5rem solid white;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    font-family: 'Gill Sans';
+    color: #1e1e1e;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-top: 5px;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 3px solid #1e1e1e;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.techSkills {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-top: 5px;
+    margin-left: 30px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.softSkills {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1e1e1e;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+}
+.languages{
+	font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1e1e1e;
+    margin-top: 5px;
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.techSkills li.tech {
+    margin: 5px;
+    list-style-type: none;
+    position: relative;
+}
+
+.techSkills li.tech::before {
+    content: "\2022"; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+    color: #1e1e1e;
+}
+
+.softSkills li {
+    margin: 5px;
+    list-style-type: none;
+}
+
+
+h1{
+	color: #303030;
+	border: dashed #bfbfbf;
+    border-radius: 5px;
+    padding: 20px;
+	text-align: center;
+	width: 500px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+h4{
+	color:#bfbfbf;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 2px;
+	font-family: Times New Roman;
+}
+h5{
+	color: #444444;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 5px;
+}
+.experience{
+	text-align: left;
+	color: #444444;
+	font-size: 23px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
