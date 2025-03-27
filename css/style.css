@@ -26,6 +26,17 @@ img {
     text-align: center;
 }
 
+h1{
+    color: #303030;
+    border: dashed #bfbfbf;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -45,6 +56,21 @@ h3 {
     margin-top: 5px;
 }
 
+h4{
+    color:#bfbfbf;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+    font-family: Times New Roman;
+}
+
+h5{
+    color: #444444;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
 hr {
     display: block;
     border: 0;
@@ -53,16 +79,22 @@ hr {
     border-radius: 20px;
 }
 
+.techSkillsDiv {
+    display: flex;
+    justify-content: center;
+}
+
 .techSkills {
     font-family: Arial;
     font-weight: bold;
     font-size: 20px;
     color: #1e1e1e;
     margin-top: 5px;
-    margin-left: 30px;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    text-align: left;
 }
 
 .softSkills {
@@ -84,48 +116,15 @@ hr {
     margin-left: 30px;
 }
 
-.techSkills li.tech {
-    margin: 5px;
+.techSkills th.tech {
+    margin: 20px;
     list-style-type: none;
     position: relative;
-}
-
-.techSkills li.tech::before {
-    content: "\2022"; 
-    display: inline-block;
-    width: 1em; 
-    margin-left: -1em; 
-    color: #1e1e1e;
 }
 
 .softSkills li {
     margin: 5px;
     list-style-type: none;
-}
-
-
-h1{
-	color: #303030;
-	border: dashed #bfbfbf;
-    border-radius: 5px;
-    padding: 20px;
-	text-align: center;
-	width: 500px;
-	margin-left: 30px;
-	margin-top: 30px;
-}
-h4{
-	color:#bfbfbf;
-	text-align: center;
-	font-size: 30px;
-	margin-top: 2px;
-	font-family: Times New Roman;
-}
-h5{
-	color: #444444;
-	text-align: center;
-	font-size: 23px;
-	margin-top: 5px;
 }
 .experience{
 	text-align: left;
